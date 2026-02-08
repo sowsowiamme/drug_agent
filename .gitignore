@@ -1,0 +1,36 @@
+# HuggingFace 模型缓存（重点！）
+data/vectors/
+models--*
+blobs/
+snapshots/
+
+# 模型权重
+*.pt
+*.pth
+*.bin
+*.ckpt
+models/
+checkpoints/
+runs/
+
+# 数据集
+*.csv
+*.pkl
+*.h5
+*.npy
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# 其他
+.DS_Store
+*.log
+*.ipynb_checkpoints
